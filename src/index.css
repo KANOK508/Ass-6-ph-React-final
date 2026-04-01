@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom Theme Colors */
+:root {
+  --p: 266 100% 64%;   /* Primary: Bright Purple #7C3AED */
+  --s: 291 93% 66%;    /* Secondary: Light Purple #A855F7 */
+  --n: 231 15% 18%;    /* Neutral/Dark: Navy/Slate */
+  --b1: 0 0% 100%;     /* Base: White */
+}
+
+/* Base styling from Figma */
+body {
+  font-family: 'Inter', sans-serif; /* Recommended clean font */
+  color: #1F2937; /* slate-800 */
+}
