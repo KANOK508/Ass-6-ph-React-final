@@ -33,7 +33,7 @@ const Pricing = () => {
         <h2 className="text-4xl font-extrabold text-slate-950 mb-4">Simple, Transparent Pricing</h2>
         <p className="text-slate-500 mb-16">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-8 max-w-6xl   mx-auto">
           {plans.map((plan, index) => (
             <div 
               key={index} 

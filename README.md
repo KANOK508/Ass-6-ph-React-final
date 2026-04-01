@@ -1,3 +1,31 @@
+
+Answer the Question  : (### 📂 GitHub Repository
+- Create Beautiful Github Readme with following description
+    - Name of your  Project
+    - A little Description
+    - Technology that you use
+    - 3 Features about your project. 
+ )
+
+ Project Name is : Digtool 
+ in this project have a navbar at top, then have a hero section, that have card section , Every card have 
+buy now button -- if select that add to the Cart section and we count it also, If we select this we can show those  card what we add to our cart .. We can remove our products using a remove button........
+Have pricing section , and footer where have all kind of info and links... 
+
+I used , React js, Daisyui , Tailwind with VITE-8 (THE LATEST VERSION)
+
+3 FEATURES OF MY PROJECTS : 
+ (i) A responsive Project for small and big device ..
+  (ii)  use toast .. on any tools selection 
+  (iii)  Every Part we implement as -- A component (this is the most fantastic features i think )
+
+
+
+
+
+
+
+
 # 🎯 A-6 Digital Tools Buying Website
 
 ## 📅 Deadlines
