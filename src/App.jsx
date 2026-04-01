@@ -7,7 +7,8 @@ import ProductCard from './components/ProductCard'
 import Cart from './components/Cart'
 import Footer from './components/Footer'
 import MainContent from './components/MainContent' // Placeholder for static content
-
+import Pricing     from './components/Pricing'
+import CTA from './components/CTA'
 function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
@@ -58,7 +59,7 @@ function App() {
         
         {/* Toggle Buttons */}
         <div className="flex justify-center my-10">
-          <div className="join border border-purple-200 p-1.5 rounded-full bg-base-100 shadow-inner">
+          <div className="join border border-purple-200 p-1.5 rounded-full bg-white shadow-inner">
             <button 
               onClick={() => setView('products')}
               className={`join-item btn rounded-full px-8 h-12 ${view === 'products' ? 'btn-primary' : 'btn-ghost text-primary'}`}
@@ -90,7 +91,8 @@ function App() {
 
       {/* Remaining Static Sections from Figma */}
       <MainContent />
-
+<Pricing/>
+<CTA/>
       <Footer />
       <ToastContainer position="top-right" autoClose={2500} theme="colored" />
     </div>
