@@ -23,7 +23,7 @@ I used , React js, Daisyui , Tailwind with VITE-8 (THE LATEST VERSION)
 
 
 
-
+// For deploy this on : netlify we have to add all  the picture in our public folder .. Else nothing will run 
 
 
 # 🎯 A-6 Digital Tools Buying Website
